@@ -8,7 +8,8 @@ $(function () {
 
     $(".release_form").submit(function (e) {
         e.preventDefault()
-        // 发布新闻
+        // TODO:发布新闻
+        /*
         $(this).ajaxSubmit({
             url: "/user/news_release",
             type: "POST",
@@ -26,7 +27,7 @@ $(function () {
                 }
             }
         })
-
+        */
 
     })
 })

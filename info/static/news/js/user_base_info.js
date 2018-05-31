@@ -28,6 +28,7 @@ $(function () {
         }
 
         // TODO 修改用户信息接口
+        /*
         $.ajax({
             url: "/user/base_info",
             type: "post",
@@ -47,6 +48,6 @@ $(function () {
                 }
             }
         })
-
+        */
     })
 })

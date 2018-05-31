@@ -73,6 +73,7 @@ function updateNewsData() {
     }
 
     // 发送get请求,获取数据
+    /*
     $.get('/newslist',params,function (resp) {
 
         //设置正在加载数据
@@ -120,6 +121,6 @@ function updateNewsData() {
         }
 
     })
-
+    */
 
 }

@@ -35,6 +35,7 @@ function getNewsList(page) {
     }
 
     // 发送请求
+    /*
     $.get("/user/other_news_list", params, function (resp) {
 
         // 判断请求是否成功
@@ -56,4 +57,5 @@ function getNewsList(page) {
             alert(resp.errmsg)
         }
     })
+    */
 }

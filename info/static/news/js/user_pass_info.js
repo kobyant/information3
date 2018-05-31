@@ -21,7 +21,7 @@ $(function () {
             alert('两次密码输入不一致')
             return
         }
-
+        /*
         $.ajax({
             url: "/user/pass_info",
             type: "post",
@@ -40,6 +40,6 @@ $(function () {
                 }
             }
         })
-
+        */
     })
 })

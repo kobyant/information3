@@ -7,12 +7,14 @@ function getCookie(name) {
 $(function () {
 
     $(".focused").click(function () {
+
         // TODO 取消关注当前新闻作者
-         var user_id = $(this).attr('data-userid')
+        var user_id = $(this).attr('data-userid')
         var params = {
             "action": "unfollow",
             "user_id": user_id
         }
+        /*
         $.ajax({
             url: "/news/followed_user",
             type: "post",
@@ -34,7 +36,7 @@ $(function () {
                 }
             }
         })
-
+        */
 
     })
 })

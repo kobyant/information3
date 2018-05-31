@@ -11,6 +11,7 @@ $(function () {
         e.preventDefault()
 
         // 上传头像
+        /*
         $(this).ajaxSubmit({
             url: "/user/pic_info",
             type: "POST",
@@ -31,6 +32,7 @@ $(function () {
                 }
             }
         })
+        */
 
     })
 })

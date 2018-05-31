@@ -93,6 +93,7 @@ $(function(){
 
     // TODO 登录表单提交
     $(".login_form_con").submit(function (e) {
+
         e.preventDefault()
         var mobile = $(".login_form #mobile").val()
         var password = $(".login_form #password").val()
@@ -113,7 +114,8 @@ $(function(){
             "password": password
         }
 
-        // 发起登录请求
+        // TODO: 发起登录请求
+        /*
         $.ajax({
             url: "/passport/login",
             type:"POST",
@@ -132,7 +134,7 @@ $(function(){
                 }
             }
         })
-
+        */
 
     })
 
@@ -174,7 +176,8 @@ $(function(){
             "password":password
         }
 
-        // 发起注册请求
+        //TODO: 发起注册请求
+        /*
         $.ajax({
             url:"/passport/register",
             type:"POST",
@@ -194,6 +197,7 @@ $(function(){
             }
 
         })
+        */
 
     })
 })
@@ -217,6 +221,7 @@ var preimageCodeId = ""
 // TODO 生成一个图片验证码的编号，并设置页面中图片验证码img标签的src属性
 function generateImageCode() {
 
+    /*
     //获取到图片验证码编号
     imageCodeId = generateUUID()
 
@@ -228,7 +233,7 @@ function generateImageCode() {
 
     // 记录上一个验证码
     preimageCodeId = imageCodeId
-
+    */
 }
 
 // 发送短信验证码
@@ -258,6 +263,7 @@ function sendSMSCode() {
     }
 
     // TODO 发送短信验证码
+    /*
     $.ajax({
         url:"/passport/sms_code",
         data:JSON.stringify(params),
@@ -298,7 +304,7 @@ function sendSMSCode() {
             }
         }
     })
-
+    */
 
 }
 
